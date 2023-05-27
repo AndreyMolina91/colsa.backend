@@ -4,7 +4,6 @@ namespace COLSA.Domain.Interfaces
     {
         //Acá crearemos los objs de tipo interface de los modelos
         IUser Users { get; }
-        ITournament Tournament { get; }
         void SaveData();
     }
 }

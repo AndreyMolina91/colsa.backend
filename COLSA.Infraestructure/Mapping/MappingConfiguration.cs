@@ -13,7 +13,6 @@ namespace COLSA.Infraestructure.Mapping
             var mapping = new MapperConfiguration(config =>
             {
                 config.CreateMap<UserRegisterDto, UserModel>().ReverseMap();
-                config.CreateMap<TournamentDto, TournamentModel>().ReverseMap();
             });
 
             return mapping;
