@@ -10,8 +10,6 @@ namespace COLSA.DataAccess.Context
         {
 
         }
-
         public DbSet<UserModel> Users { get; set; }
-        public DbSet<TournamentModel> Tournament { get; set; }
     }
 }
