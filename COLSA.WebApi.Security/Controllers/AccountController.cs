@@ -47,14 +47,14 @@ namespace COLSA.WebApi.Security.Controllers
             if (response.ToString() == "nouser")
             {
                 _responseDto.IsSuccess = false;
-                _responseDto.DisplayMessage = "User don't exist";
+                _responseDto.DisplayMessage = "User doesn't exist";
                 return BadRequest(_responseDto);
             }
 
             if (response.ToString() == "wrongpassword")
             {
                 _responseDto.IsSuccess = false;
-                _responseDto.DisplayMessage = "Password doesn't match";
+                _responseDto.DisplayMessage = "Password don't match";
                 return BadRequest(_responseDto);
             }
 
